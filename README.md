@@ -4,8 +4,8 @@
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
-Esse projeto é uma API desenvolvida usando **Java, Java Spring, MySQL as the database.** 
-Com finalidade de trabalhar como o sistema de recrutamento de estágiarios.
+Esse projeto é uma API desenvolvida usando **Java, Java Spring, MySQL.** 
+Com finalidade de trabalhar com o sistema de divulgação de vagas.
 
 ## Tabela de conteúdo
 
