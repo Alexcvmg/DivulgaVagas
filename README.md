@@ -1,4 +1,4 @@
-# API Back-end HiSig
+# API Back-end
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
@@ -24,14 +24,6 @@ Com finalidade de trabalhar como o sistema de recrutamento de estágiarios.
 
 ## Instalação
 
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/TTeT-Solucoes-Informatica/HiSig-back.git
-```
-
-2. Instale dependências com Maven
-
 ## Uso do projeto
 
 1. Start a aplicação com Maven
@@ -51,10 +43,3 @@ Para a criação do contêiner para o projeto, execute o seguinte comando na rai
 ```docker
 docker-compose up -d
 ```
-
-
-## Contribuições
-
-Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, abra um problema ou envie uma solicitação pull ao repositório.
-
-Ao contribuir para este projeto, siga o estilo de código existente, [commit conventions](https://www.conventionalcommits.org/en/v1.0.0/), e envie suas alterações em um branch separado.
