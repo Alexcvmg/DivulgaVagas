@@ -14,7 +14,6 @@ Com finalidade de trabalhar com o sistema de divulgação de vagas.
 - [Uso do projeto](#uso-do-projeto)
 - [API Endpoints](#api-endpoints)
 - [Banco de Dados](#banco-de-dados)
-- [Contribuições](#contribuições)
 
 ## Requisitos
 
