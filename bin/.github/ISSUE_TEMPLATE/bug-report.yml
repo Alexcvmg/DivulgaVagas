@@ -1,0 +1,65 @@
+name: Bug Report
+description: Arquivar um relatório de bug
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por reservar um tempo para preencher este relatório de bug!
+  - type: input
+    id: contact
+    attributes:
+      label: Detalhes do contato
+      description: Como podemos entrar em contato com você se precisarmos de mais informações?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: O que aconteceu?
+      description: Diga-nos também, o que você esperava que acontecesse?
+      placeholder: Conte-nos o que você vê!
+      value: "Aconteceu um bug!"
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: Qual versão do nosso software você está executando?
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: Em quais navegadores você está vendo o problema?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Opera
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevantes log de output
+      description: Copie e cole qualquer log de output relevante. Isso será formatado automaticamente em código, portanto, não há necessidade de crases.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Código de Conduta
+      description: Ao enviar este problema, você concorda em seguir nosso [Código de Conduta](https://example.com)
+      options:
+        - label: Concordo em seguir o Código de Conduta deste projeto
+          required: true

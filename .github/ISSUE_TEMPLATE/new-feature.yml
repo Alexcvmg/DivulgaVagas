@@ -1,0 +1,51 @@
+name: New feature
+description: Sugira ou solicite um nova feature
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Preencha as seções abaixo para descrever adequadamente o novo recurso que você está sugerindo.
+  - type: textarea
+    id: description
+    attributes:
+      label: "Descrição"
+      placeholder: Um botão na tela X que permite fazer Y
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Deve ser implementado porque?
+      placeholder: Isso permitirá fazer Y que é necessário para Z
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Você pensou em alguma alternativa?
+      placeholder: Poderíamos fazer A ou B em vez disso
+  - type: textarea
+    id: prerequisite
+    attributes:
+      label: Pré-requisito
+      value: |
+        - [ ] ...
+        - [ ] ...
+        - [ ] ...
+  - type: textarea
+    id: context
+    attributes:
+      label: Conteúdo adicional
+      placeholder: |
+        Adicione qualquer outro contexto ou capturas de tela sobre a solicitação de recurso aqui.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Campos extras
+      options:
+        - label: Usei a função de pesquisa para verificar se já existe um problema
+          required: true
+        - label: Eu gostaria de trabalhar neste assunto
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por sua sugestão! Vamos ver juntos se isso pode ser implementado.
